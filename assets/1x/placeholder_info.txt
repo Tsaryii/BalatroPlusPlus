@@ -1,0 +1,18 @@
+Currently Using Placeholder Sprites from Vanilla Joker Atlas:
+
+- Whiteboard: Uses pos {x=0, y=0} (Joker sprite)
+- Eques: Uses pos {x=1, y=0} (Greedy Joker sprite)  
+- Petrified Joker: Uses pos {x=2, y=0} (Lusty Joker sprite)
+
+Future Custom Images Needed (71x95 pixels):
+- j_whiteboard.png - A white/clean joker (opposite of Blackboard's dark theme)
+- j_eques.png - A knight-themed joker with medieval/armor elements
+- j_petrified_joker.png - A stone/crystal joker that looks patient/waiting
+
+Instructions for Custom Art:
+- Use Balatro's art style: pixel art with clean lines
+- 71x95 pixel dimensions for 1x assets
+- Use Balatro's color palette
+- Whiteboard: Clean, bright, with red suit symbols (Hearts/Diamonds), opposite of Blackboard
+- Eques: Knight/medieval theme with crown elements (upgrades to King)
+- Petrified: Stone/crystal texture, maybe with crack lines showing gradual growth

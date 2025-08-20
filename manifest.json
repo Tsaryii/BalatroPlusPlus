@@ -1,0 +1,9 @@
+{
+    "name": "Vanilla+",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/user/totallybalancedcards",
+    "description": "A mod that aims to add content to the game without changing the core mechanics by following the current design philosophy of balatro.",
+    "dependencies": [
+        "Thunderstore-lovely-0.7.1"
+    ]
+}

@@ -1,0 +1,9 @@
+Currently using vanilla Joker atlas (no custom 2x images needed yet)
+
+Future 2x Resolution Images (142x190 pixels):
+- j_whiteboard.png 
+- j_eques.png
+- j_petrified_joker.png
+
+Also needed:
+- modicon.png - Icon for the mod (should represent balance/strategy theme)
