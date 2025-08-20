@@ -1,4 +1,4 @@
--- Tax Collector: +3 Mult per $1 of interest; at end of round, halve interest payout (rounded down)
+-- Tax Collector: +1 Mult per $1 of interest; at end of round, halve interest payout (rounded down)
 
 SMODS.Joker({
 	key = "tax_collector",
@@ -28,7 +28,7 @@ SMODS.Joker({
 				local interest_amt = (G.GAME.interest_amount or 1)
 				local interest_dollars = interest_amt * bracket_count
 				if interest_dollars > 0 then
-					local gained = 3 * interest_dollars
+					local gained = 1 * interest_dollars
 					card.ability.extra.mult = (card.ability.extra.mult or 0) + gained
 					return { message = localize{ type = 'variable', key = 'a_mult', vars = { gained } }, colour = G.C.MULT }
 				end

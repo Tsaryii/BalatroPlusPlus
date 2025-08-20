@@ -68,7 +68,7 @@ return {
             j_tbc_tax_collector = {
                 name = "Tax Collector",
                 text = {
-                    "Permanently gains {C:mult}+3{} Mult for",
+                    "Permanently gains {C:mult}+1{} Mult for",
                     "each {C:money}$1{} of interest at end of round;",
                     "halves interest gained {C:inactive}(rounded down).",
                     "{C:inactive}(Currently {C:mult}+#1#{})"
