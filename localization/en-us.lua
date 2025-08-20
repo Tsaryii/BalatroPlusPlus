@@ -57,19 +57,20 @@ return {
             j_tbc_bouncer = {
                 name = "Bouncer",
                 text = {
-                    "When blind is selected: {C:attention}1/2 chance{} to destroy the",
-                    "{C:attention}youngest Joker{} and gain {X:mult,C:white}+0.1x{}",
-                    "per {C:money}$1{} of its sell value.",
+                    "When blind is selected: For each Joker to the",
+                    "{C:attention}left{} of this, {C:attention}1/2 chance{} to destroy it",
+                    "and gain {X:mult,C:white}+0.1x{} per {C:money}$1{} of its sell value.",
                     "{C:inactive}(Currently: {X:mult,C:white}X#1#)"
                 }
             }
             ,
+            
             j_tbc_tax_collector = {
                 name = "Tax Collector",
                 text = {
-                    "Permanently gains {C:mult}+2{} Mult for",
-                    "each {C:money}$5{} of interest at end of round;",
-                    "subtracts {C:money}$1{} from each $5 of interest.",
+                    "Permanently gains {C:mult}+3{} Mult for",
+                    "each {C:money}$1{} of interest at end of round;",
+                    "halves interest gained {C:inactive}(rounded down).",
                     "{C:inactive}(Currently {C:mult}+#1#{})"
                 }
             }
